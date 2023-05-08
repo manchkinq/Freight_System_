@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FreightSys:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FreightSys_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FreightSys" />
+          <element id="jpa-descriptors" facet="FreightSys/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-19.0.2.1/lib/javafx.base.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/javafx-sdk-19.0.2.1/lib/javafx.controls.jar" />
+          <element id="library" level="project" name="openjfx.javafx.fxml" />
+          <element id="library" level="project" name="mysql.connector.java" />
+          <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="library" level="project" name="springframework.spring.core" />
+          <element id="library" level="project" name="springframework.security.spring.core" />
+          <element id="library" level="project" name="springframework.spring.webmvc" />
+          <element id="library" level="project" name="google.code.gson" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="FreightSys/web/Web" />
+    </root>
+  </artifact>
+</component>

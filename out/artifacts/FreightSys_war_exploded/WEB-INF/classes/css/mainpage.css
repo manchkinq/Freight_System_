@@ -1,0 +1,54 @@
+/* Set the background color to blue */
+.root {
+    -fx-background-color: #0077be;
+}
+
+/* Set the tab pane background color to yellow */
+.tab-pane {
+    -fx-background-color: #fff200;
+}
+
+/* Set the text color of the tabs to blue */
+.tab {
+    -fx-text-fill: #0077be;
+}
+
+/* Set the font size of the tabs to 18pt */
+.tab-label {
+    -fx-font-size: 18pt;
+}
+
+/* Set the table header background color to blue */
+.table-view .column-header-background {
+    -fx-background-color: #0077be;
+}
+
+/* Set the table cell background color to yellow */
+.table-row-cell {
+    -fx-background-color: #fff200;
+}
+
+/* Set the button background color to blue */
+.button {
+    -fx-background-color: #0077be;
+}
+
+/* Set the button text color to yellow */
+.button .text {
+    -fx-fill: #fff200;
+}
+
+/* Set the font size of the button text to 18pt */
+.button .text {
+    -fx-font-size: 18pt;
+}
+
+/* Set the text field background color to yellow */
+.text-field {
+    -fx-background-color: #fff200;
+}
+
+/* Set the text field prompt text color to blue */
+.text-field .prompt-text {
+    -fx-text-fill: #0077be;
+}

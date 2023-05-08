@@ -1,0 +1,201 @@
+/* Set background color */
+.root {
+    -fx-background-color: #F6F1F1;
+}
+
+/* Set tab style */
+.tab {
+    -fx-background-color: #F6F1F1;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+}
+
+/* Set selected tab style */
+.tab:selected {
+    -fx-background-color: #AFD3E2;
+}
+
+/* Set table view style */
+.table-view {
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Set table header style */
+/*.table-header-background {
+    -fx-background-color: #121212;
+}*/
+
+/* Set table column style */
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-font-size: 16px;
+}
+
+/* Set button style */
+.button {
+    -fx-background-color: #AFD3E2;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #085370;
+    -fx-background-radius: 20px;
+}
+
+/* Set list view style */
+.list-view {
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Set label style */
+.label {
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 18px;
+    -fx-text-fill: black;
+}
+
+/* Set text field style */
+.text-field {
+    -fx-background-color: #AFD3E2;
+    -fx-border-color:  #146C94;
+    -fx-border-width: 1px;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #323436;
+    -fx-text-fill:  black;
+}
+
+/* Set combo box style */
+.combo-box {
+    -fx-background-color: #AFD3E2;
+    -fx-border-color:  #146C94;
+    -fx-border-width: 1px;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill:  #146C94;
+}
+
+/* Set date picker style */
+.date-picker {
+    -fx-background-color: #AFD3E2;
+    -fx-border-color:  #146C94;
+    -fx-border-width: 1px;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill:  #146C94;
+}
+
+/* Set radio button style */
+.radio-button {
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+
+/* Set toggle button style */
+.toggle-button {
+    -fx-background-color: #AFD3E2;
+    -fx-background-radius: 20px;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+
+/* Set anchor pane style */
+.anchor-pane {
+    -fx-background-color:#F6F1F1;
+}
+
+.add {
+    -fx-background-color: #3bc7f5;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-radius: 20px;
+}
+
+.update {
+    -fx-background-color: #19A7CE;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-radius: 20px;
+}
+
+.delete {
+    -fx-background-color: #146C94;
+    -fx-font-family: 'Orbitron', sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-radius: 20px;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #19A7CE;
+}
+
+
+
+
+/*
+!* Cyberpunk style for TableView *!
+.table-view {
+    -fx-background-color: #2c2c2c;
+    -fx-border-color: #8c8c8c;
+    !*-fx-text-fill: white;*!
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #151515;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #313131;
+
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #2c2c2c;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #acacac;
+}
+
+!* Cyberpunk style for ListView *!
+.list-view {
+    -fx-background-color: #2c2c2c;
+    -fx-border-color: #8c8c8c;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #313131;
+    -fx-text-fill: #8c8c8c;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #2c2c2c;
+    -fx-text-fill: #8c8c8c;
+}
+
+.list-view .list-cell:selected{
+    -fx-text-fill: white;
+}
+
+.list-cell:selected {
+    -fx-text-fill: white;
+}
+
+.list-cell:odd:selected, .list-cell:even:selected {
+    -fx-background-color: #949494;
+}
+*/
